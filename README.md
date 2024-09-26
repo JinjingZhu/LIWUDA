@@ -35,45 +35,6 @@ pip install -r requirements.txt
 * Train with command line (take `office` for example)
     ```
     python main.py --gpu 0 --exp office31 --dataset office31 --source amazon --target dslr
-    ```
-
-* Train with script
-
-    Modify `./config/<dataset>.sh`:
-    * delete the lines which begin with `#SBATCH`
-    * specify `$CUDA_VISIBLE_DEVICES`
-    
-    then
-    ```
-    cd ./script
-    sh office31.sh          # or officehome/visda/domainnet
-    ```
-
-* Train with **Slurm** script
-
-    Modify `./config/<dataset>.sh`:
-    * `#SBATCH --mail-user=YOU@MAIL.COM`
-    * `#SBATCH -p YOUR_partition` 
-    
-    then
-    ```
-    cd ./script
-    mkdir output
-    sbatch office31.sh      # or officehome/visda/domainnet
-    ```
-
-* Monitor (TensorBoard required)
-    ```
-    tensorboard --logdir=./log --port xxxx
-    ```
-
-* Test with command line (take `office` for example)
-    ```
-    python eval.py --gpu 0 --dataset office31 --source amazon --target dslr --model_path /path/to/your/model/final.pkl
-    ```
-
-## Checkpoints
-We provide the checkpoints for Office, OfficeHome, VisDA and DomainNet at [Google Drive](https://drive.google.com/drive/folders/1TMz7lX9Seu3-IFCco2aiyLmc0sVj2Lps?usp=sharing).
 
 ## Citation
 If you find this repository useful in your research, please consider citing:
