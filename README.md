@@ -2,7 +2,7 @@
 
 Code release for **A Versatile Framework for Unsupervised Domain Adaptation based on Instance Weighting**.
 
-![](LIWUDA-pipeline.png)
+![](LIWUDA-pipeline.jpg)
 
 ## Requirements
 * Python 3.7+
