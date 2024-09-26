@@ -40,13 +40,10 @@ pip install -r requirements.txt
 If you find this repository useful in your research, please consider citing:
 
 ```
-@inproceedings{
-chang2022unified,
-title={Unified Optimal Transport Framework for Universal Domain Adaptation},
-author={Wanxing Chang and Ye Shi and Hoang Duong Tuan and Jingya Wang},
-booktitle={Advances in Neural Information Processing Systems},
-editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
-year={2022},
-url={https://openreview.net/forum?id=RTan64GlCLV}
+@article{zhu2023unified,
+  title={A Unified Framework for Unsupervised Domain Adaptation based on Instance Weighting},
+  author={Zhu, Jinjing and Ye, Feiyang and Xiao, Qiao and Guo, Pengxin and Zhang, Yu and Yang, Qiang},
+  journal={arXiv preprint arXiv:2312.05024},
+  year={2023}
 }
 
