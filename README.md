@@ -26,9 +26,6 @@ pip install -r requirements.txt
     /path/to/your/domainnet/sketch/             # DomainNet
     ```
 
-* For OfficeHome dataset, make sure that your folder name is `RealWorld` instead of `Real World`.
-* Modify `root_path` with `/path/to/your/dataset/` in config files `./config/<dataset>-config.yaml`.
-* Make a log directory by ```mkdir ./log```.
 * Make a model directory by ```mkdir ./model```. Download ImageNet pretrained model from [Google Drive](https://drive.google.com/file/d/1wWsZYeQ3b1Zd5R5TRmVeAxYlEU3KHuy2/view?usp=sharing), then put the downloaded model into ```./model```. 
 
 ## Getting started
