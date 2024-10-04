@@ -31,16 +31,16 @@ pip install -r requirements.txt
 ## Getting started
 * Train with command line (take `OSDA` for example)
     ```
-    python OSDA.py
+    python OSDA/OSDA.py
 * Train with command line (take `PDA` for example)
     ```
-    python PDA.py
+    python PDA/PDA.py
 * Train with command line (take `UniDA` for example)
     ```
-    python UniDA.py
+    python UniDA/UniDA.py
 * Train with command line (take `CSDA` for example)
     ```
-    python CSDA.py
+    python CSDA/CSDA.py
 
 ## Citation
 If you find this repository useful in your research, please consider citing:
