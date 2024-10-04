@@ -29,9 +29,18 @@ pip install -r requirements.txt
 * Make a model directory by ```mkdir ./model```. Download ImageNet pretrained model from [Google Drive](https://drive.google.com/file/d/1wWsZYeQ3b1Zd5R5TRmVeAxYlEU3KHuy2/view?usp=sharing), then put the downloaded model into ```./model```. 
 
 ## Getting started
-* Train with command line (take `office` for example)
+* Train with command line (take `OSDA` for example)
     ```
-    python main.py --gpu 0 --exp office31 --dataset office31 --source amazon --target dslr
+    python OSDA.py
+* Train with command line (take `PDA` for example)
+    ```
+    python PDA.py
+* Train with command line (take `UniDA` for example)
+    ```
+    python UniDA.py
+* Train with command line (take `CSDA` for example)
+    ```
+    python CSDA.py
 
 ## Citation
 If you find this repository useful in your research, please consider citing:
