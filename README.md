@@ -7,7 +7,7 @@ Code release for **A Versatile Framework for Unsupervised Domain Adaptation base
 ## Requirements
 * Python 3.7+
 * PyTorch 1.8.0
-* GPU Memory 12 GB
+* GPU Memory 48 GB
 
 To install requirements:
 
