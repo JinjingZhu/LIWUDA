@@ -19,11 +19,11 @@ pip install -r requirements.txt
 * Download the dataset: [Office31](https://faculty.cc.gatech.edu/~judy/domainadapt/), [OfficeHome](https://www.hemanthdv.org/officeHomeDataset.html), [VisDA](https://github.com/VisionLearningGroup/taskcv-2017-public/tree/master/classification) and [DomainNet (real, painting and sketch)](http://ai.bu.edu/M3SDA/).
 * Prepare dataset in data directory as follows
     ```
-    /path/to/your/dataset/images/amazon/      # Office
-    /path/to/your/dataset/RealWorld/          # OfficeHome 
-    /path/to/your/dataset/train/              # VisDA synthetic images
-    /path/to/your/dataset/test/               # VisDA real images
-    /path/to/your/dataset/sketch/             # DomainNet
+    /path/to/your/office31/amazon/      # Office
+    /path/to/your/office_home/RealWorld/          # OfficeHome 
+    /path/to/your/VisDA/source/              # VisDA synthetic images
+    /path/to/your/VisDA/target/               # VisDA real images
+    /path/to/your/domainnet/sketch/             # DomainNet
     ```
 
 * For OfficeHome dataset, make sure that your folder name is `RealWorld` instead of `Real World`.
